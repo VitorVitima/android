@@ -183,10 +183,8 @@ main > div#center2 > section {
 main > div#center2 > section > article.list > div > div::before {
     content: '\2714';
 }
-main > div#center2 > section > article.list {
-    display: inline-block;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
+main > div#center2 > section > article.list ul {
+    list-style-type: georgian;
 }
 
 footer {
